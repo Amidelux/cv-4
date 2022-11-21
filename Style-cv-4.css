@@ -1,0 +1,106 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+  
+body {
+    margin: 0;
+    padding: 0;
+  }
+.wrapper {
+    width: 100%;
+    height: 100%;
+    border-top: 7px solid  #005889;
+  }
+
+.wrapper-2{
+  width: 100%;
+  border-top: 1px solid  #005889;
+}
+
+.contact {
+  padding-left: 20px;
+}
+
+.header {
+    display: flex;
+    margin: 16px;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+.poza {
+    border-radius: 15px;
+}
+
+h1 {
+    color: rgb(14, 13, 13);
+    font-size: 30px;
+    text-align: center;
+  }
+
+h2, h4 {
+    margin: 0px;
+    padding-left: 20px;
+  }
+
+p {
+    color:rgb(13, 14, 13);
+    font-weight: bold;
+    text-align: left;
+  }
+
+#facebook {
+    padding: 50px;
+  }
+
+#paragraph {
+    color: #005889;
+    padding-left: 20px;
+  }
+
+.table, th, td {
+    border: 4px solid #ddd;
+    border-collapse: collapse;
+  }
+    
+th, td {
+    padding: 10px;
+    text-align: center;
+  }
+ 
+#tabel-header {
+    background-color: rgb(167, 167, 182);
+    color: aliceblue;
+  }
+
+.table {
+  margin-left: 20px;
+}
+
+#tabel-header > th {
+    padding: 20px 10px
+  }
+
+tr:nth-child(2) {
+    background-color: bisque;
+  }
+
+tr:nth-child(3) {
+    background-color: bisque;
+  }
+
+tr:hover {
+    background-color: #005889;
+  }
+
+
+
+  
+ 
+ 
+ 
